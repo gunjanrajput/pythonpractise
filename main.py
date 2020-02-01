@@ -19,6 +19,7 @@ def create_distance_function(a, b, c):
             pos = 1
         return (np.absolute(nom) / np.sqrt( a ** 2 + b ** 2), pos)
     return distance
+    #gunjan
     
 
 points = [ (3.5, 1.8), (1.1, 3.9) ]
